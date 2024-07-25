@@ -9,7 +9,7 @@ function ClickablePicture() {
     }
 
     return(
-        <img onClick={toggleClick} src={click} alt="maxence" />
+        <img width="200px" onClick={toggleClick} src={click} alt="maxence" />
     )
     
 }

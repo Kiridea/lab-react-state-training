@@ -7,7 +7,7 @@ function Counter() {
 
     return (
         <div className="counter">
-            <button onClick={() => { if(counter > 0){setCounter(counter - 1)} else if (counter = 0){counter = 0}}}>-</button>
+            <button onClick={() => { if(counter > 0){setCounter(counter - 1)} }}>-</button>
             <h2>{counter}</h2>
             <button onClick={() => setCounter(counter + 1)}>+</button>
         </div>
